@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/item_wisata_list"
+        android:background="@color/white"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <kukila.backindapps.Layout.BackindMontserratBold
+                    android:id="@+id/booking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bandung"
+                    android:textColor="@color/abuDark"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <kukila.backindapps.Layout.BackindMontserratBold
+                    android:id="@+id/harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Rp 150.000,-"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <kukila.backindapps.Layout.BackindMontserratRegular
+                android:id="@+id/nama_wisata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abuDark"
+                android:layout_margin="5dp"
+                android:text="Tangkuban Perahu"
+                android:textSize="16dp" />
+
+            <kukila.backindapps.Layout.BackindMontserratRegular
+                android:id="@+id/nama_homestay"
+                android:layout_width="wrap_content"
+                android:textColor="@color/abuDark"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Kamboja Villa"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <kukila.backindapps.Layout.BackindMontserratLight
+                    android:id="@+id/review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="5dp"
+                    android:text="Saturday, 30 Nov 2017"
+                    android:textColor="@color/abuDark"
+                    android:textSize="12dp" />
+
+                <kukila.backindapps.Layout.BackindButtonBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/button_background_blue"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:text="Details"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
